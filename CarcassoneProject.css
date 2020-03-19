@@ -1,0 +1,66 @@
+body{
+    background-image: url('Carcassone.jpg');
+    background-repeat: no-repeat;
+    background-position: left-bottom;
+    background-size: 100% 100%;
+
+}
+
+h1{
+    
+    font-family: Luminari; 'fantasy';
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(#feea48, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: #050500 1px 2px; */
+
+}
+
+table{
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia;
+    color: white;
+    text-shadow: 2px 2px #d39f04;
+    border-style: double;
+    border-color: #144f8e;
+    border-width: 13px;
+    border-collapse: collapse;
+    background-color: #5aa1e8;
+   
+}
+
+th{
+    text-align: left;
+    font-size: 20px;
+    background-color: #5aa1e8;
+    padding: 5px;
+}
+
+td{
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+}
+
+tr:nth-child(odd){
+    background-color:#5aa1e8;
+}
+
+tr:nth-child(even){
+    background-color:#aacff3;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: Luminari; 'fantasy';
+    font-weight: bold;
+    color: #144f8e;
+    bottom: 0;
+}
